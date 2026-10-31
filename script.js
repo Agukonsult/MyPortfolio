@@ -82,9 +82,9 @@ const PROJECTS = [
     images: {
       hero: "Images/Residential_Images/4bedroom_bungalow/3D/BUG3D1.jpg",
       sketches: [
-        "Images/Residential_Images/5bedroom_duplex_and_BQ/Sketches/BQSKE1.JPG",
-        "Images/Residential_Images/5bedroom_duplex_and_BQ/Sketches/BQSKE2.JPG",
-        "Images/Residential_Images/5bedroom_duplex_and_BQ/Sketches/BQSKE3.JPG",
+        "Images/Residential_Images/5bedroom_duplex_and_BQ/Sketches/BQSKE1.jpg",
+        "Images/Residential_Images/5bedroom_duplex_and_BQ/Sketches/BQSKE2.jpg",
+        "Images/Residential_Images/5bedroom_duplex_and_BQ/Sketches/BQSKE3.jpg",
       ],
       views3d: [],
       plans: [],
