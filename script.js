@@ -78,7 +78,8 @@ const PROJECTS = [
     type: "residential",
     location: "Awka , Anambra , Nigeria",
     year: "2022",
-    intro:"Inspired by the client’s deep appreciation for traditional architecture and cultural heritage, this design blends timeless traditional craftsmanship with modern materials and contemporary expression. Traditional motifs are thoughtfully integrated into key elements, particularly the entrance pillars, creating a building that celebrates cultural identity while embracing modern design.",
+    intro:
+      "Inspired by the client’s deep appreciation for traditional architecture and cultural heritage, this design blends timeless traditional craftsmanship with modern materials and contemporary expression. Traditional motifs are thoughtfully integrated into key elements, particularly the entrance pillars, creating a building that celebrates cultural identity while embracing modern design.",
     images: {
       hero: "Images/Residential_Images/4bedroom_bungalow/3D/BUG3D1.jpg",
       sketches: [
@@ -87,7 +88,9 @@ const PROJECTS = [
         "Images/Residential_Images/5bedroom_duplex_and_BQ/Sketches/BQSKE3.jpg",
       ],
       views3d: [],
-      plans: [],
+      plans: [
+         "Images/Residential_Images/5bedroom_duplex_and_BQ/Floor_Plan/BQFLOOR_PLAN.JPG"
+      ],
       construction: [
         "Images/Residential_Images/5bedroom_duplex_and_BQ/Construction_Phase/BQCON1.jpg",
         "Images/Residential_Images/5bedroom_duplex_and_BQ/Construction_Phase/BQCON2.jpg",
@@ -190,7 +193,8 @@ const PROJECTS = [
     type: "residential",
     location: "Awka , Anambra, Nigeria",
     year: "2022",
-    intro: "The project was designed on a 314 sqm site, this mixed-use development thoughtfully combines comfortable residential living—with self-contained and three-bedroom apartments—with a functional commercial outlet on the ground floor. Every part of the site was carefully maximized to create a balanced environment, providing essential services including parking for three cars, an overhead water tank, and a septic system.",
+    intro:
+      "The project was designed on a 314 sqm site, this mixed-use development thoughtfully combines comfortable residential living—with self-contained and three-bedroom apartments—with a functional commercial outlet on the ground floor. Every part of the site was carefully maximized to create a balanced environment, providing essential services including parking for three cars, an overhead water tank, and a septic system.",
     images: {
       hero: "",
       sketches: [
@@ -201,7 +205,15 @@ const PROJECTS = [
         "Images/Residential_Images/Residential_apartments_and_shop_outlets/Floor_Plan/OUTFLOOR1.jpg",
       ],
       construction: [],
-      completion: [],
+      completion: [
+        "Images/Residential_Images/Residential_apartments_and_shop_outlets/Completion_Phase/OUTCOM1.jpg",
+        "Images/Residential_Images/Residential_apartments_and_shop_outlets/Completion_Phase/OUTCOM2.jpg",
+        "Images/Residential_Images/Residential_apartments_and_shop_outlets/Completion_Phase/OUTCOM3.jpg",
+        "Images/Residential_Images/Residential_apartments_and_shop_outlets/Completion_Phase/OUTCOM4.jpg",
+        "Images/Residential_Images/Residential_apartments_and_shop_outlets/Completion_Phase/OUTCOM5.jpg",
+        "Images/Residential_Images/Residential_apartments_and_shop_outlets/Completion_Phase/OUTCOM6.jpg",
+        "Images/Residential_Images/Residential_apartments_and_shop_outlets/Completion_Phase/OUTCOM7.jpg",
+      ],
     },
   },
   {
@@ -337,7 +349,8 @@ const PROJECTS = [
     type: "cultural",
     location: "Asaba, Nigeria",
     year: "2025",
-    intro: "Designed as a place of worship and community, this church spans 1,041.838 sqm on a 2,736.158 sqm site. The spacious site provides ample parking and creates a welcoming environment where the congregation can gather, connect, and worship.",
+    intro:
+      "Designed as a place of worship and community, this church spans 1,041.838 sqm on a 2,736.158 sqm site. The spacious site provides ample parking and creates a welcoming environment where the congregation can gather, connect, and worship.",
     images: {
       hero: "Images/Cultural_&_religious_Images/Church/3D/CHH3D1.jpg",
       sketches: [
@@ -401,7 +414,8 @@ const PROJECTS = [
     type: "cultural",
     location: "Anambra, Nigeria",
     year: "2025",
-    intro: "The client wants the building to be Inspired by the rich cultural heritage of the Igbo people, this Kindred Hall blends traditional symbols with modern architectural expression. The elephant tusk-shaped entrance represents royalty, while cowries and Nsibidi-inspired elements on the façade celebrate the identity, history, and enduring spirit of Igbo culture.",
+    intro:
+      "The client wants the building to be Inspired by the rich cultural heritage of the Igbo people, this Kindred Hall blends traditional symbols with modern architectural expression. The elephant tusk-shaped entrance represents royalty, while cowries and Nsibidi-inspired elements on the façade celebrate the identity, history, and enduring spirit of Igbo culture.",
     images: {
       hero: "Images/Cultural_&_religious_Images/Communityhall/3D/TWNT3D1.jpg",
       sketches: [
@@ -439,7 +453,6 @@ const PROJECTS = [
         "Images/Academic/Omambala_floating_smart_house/Sketches/ACASKE7.jpg",
         "Images/Academic/Omambala_floating_smart_house/Sketches/ACASKE8.jpg",
         "Images/Academic/Omambala_floating_smart_house/Sketches/ACASKE9.jpg",
-        "Images/Academic/Omambala_floating_smart_house/Sketches/ACASKE10.jpg",
       ],
       views3d: [
         "Images/Academic/Omambala_floating_smart_house/3D/ACA3D1.jpg",
@@ -449,6 +462,7 @@ const PROJECTS = [
       plans: [
         "Images/Academic/Omambala_floating_smart_house/Floor_Plan/ACAFLOOR1.jpg",
         "Images/Academic/Omambala_floating_smart_house/Floor_Plan/ACAFLOOR2.jpg",
+        "Images/Academic/Omambala_floating_smart_house/Floor_Plan/ACAFLOOR3.jpg",
       ],
       construction: [],
       completion: [],
