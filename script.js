@@ -1422,7 +1422,7 @@ function renderMenu(proj, active) {
         li("tel:+2349074873170", "Phone") +
         li("#contact", "Address"),
     ) +
-    '<p class="tag">Architect<br>5 years of experience</p></div>';
+    '<p class="tag">Architect<br>3+ years of experience</p></div>';
 }
 if (MODE !== "hash") {
   const f = location.pathname.split("/").pop(),
