@@ -260,7 +260,7 @@ const PROJECTS = [
     location: "Anambra, Nigeria",
     year: "2023",
     intro:
-      "Situated within a culturally rich ritual area near the local market square, the project seeks to create a vibrant relaxation destination by blending modern architecture with indigenous materials such as bamboo, thatch, and concrete. Inspired by the client’s vision, the design thoughtfully zones a bar and restaurant, outdoor snooker area, bush bar lounge, and staff quarters to create a welcoming atmosphere that encourages community interaction and brings nightlife to the locality",
+      "Situated within a culturally rich rural area near the local market square, the project seeks to create a vibrant relaxation destination by blending modern architecture with indigenous materials such as bamboo, thatch, and concrete. Inspired by the client’s vision, the design thoughtfully zones a bar and restaurant, outdoor snooker area, bush bar lounge, and staff quarters to create a welcoming atmosphere that encourages community interaction and brings nightlife to the locality",
     images: {
       hero: "Images/Commercial_Images/Restaurant_design/3D/3DVIEW1.jpeg",
       sketches: [
@@ -1270,7 +1270,7 @@ const PARTS = [
 const gal = (t, r, n, cap) =>
   `<div class="gal">${Array.from({ length: n }, (_, j) => `<figure>${media("", `${t} ${j + 1}`, r, "", t === "Sketch" ? "sketch" : "construction", "home-" + (j + 1))}<figcaption>${cap || t} ${j + 1}</figcaption></figure>`).join("")}</div>`;
 function home() {
-  app.innerHTML = `<section class="hero home"><div class="bg" id="slides"></div><div class="wrap"></p><h1>I'm a Graduate Architect with 3+ years of experience.</h1><p>I design homes, cultural spaces and places for communities, from the first sketch to the finished building.</p><div class="cta"><a href="#profile">Read my profile</a><a href="#projects">See my projects</a><a href="#profile-cv">My CV</a></div></div><a class="cap" id="cap" href="#"></a></section>
+  app.innerHTML = `<section class="hero home"><div class="bg" id="slides"></div><div class="wrap"></p><h1>Graduate Architect with 3+ years of experience.</h1><p>I design homes, cultural spaces and places for communities, from the first sketch to the finished building.</p><div class="cta"><a href="#profile">Read my profile</a><a href="#projects">See my projects</a><a href="#profile-cv">My CV</a></div></div><a class="cap" id="cap" href="#"></a></section>
 <section class="sec" id="projects"><div class="wrap"><div class="sh"><h2>Selected work</h2><p class="blurb" id="blurb"></p></div>
 <div class="bar"><div class="filters" id="filters" role="group" aria-label="Filter by sector"></div><span class="count" id="count" aria-live="polite"></span></div>
 <div class="grid" id="grid"></div></div></section>`;
@@ -1290,7 +1290,7 @@ function profile() {
       </div>
       <div class="prof-copy">
         <p class="eyebrow">Profile</p>
-        <h1>I'm a Graduate Architect with 3+ years of experience.</h1>
+        <h1>Graduate Architect with 3+ years of experience.</h1>
         <p>Graduate architect with hands-on experience in architectural design development, site supervision, and project documentation. Skilled at translating design concepts into practical construction solutions, coordinating site activities, interpreting technical drawings, and monitoring quality and compliance.</p>
         <p>Proficient in ArchiCAD, AutoCAD, and Enscape, with practical knowledge of architectural detailing, building methods, materials, and site coordination.</p>
         <dl class="pfacts" id="facts">
