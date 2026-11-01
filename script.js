@@ -43,7 +43,8 @@ const PROJECTS = [
     type: "residential",
     location: "Ezinifite , Anambra, Nigeria",
     year: "2026",
-    intro: LOREM,
+    intro:
+      "The project is designed to sit on a 750sqm plot, the design embraces multiple access points, allowing seamless entry and exit from different sides of the building. Every access point is thoughtfully integrated to enhance movement, convenience, and connectivity throughout the home.",
     images: {
       hero: "Images/Residential_Images/5bedroom_duplex/Construction_Phase/5BEDCON2.mp4",
       sketches: [
@@ -60,7 +61,7 @@ const PROJECTS = [
       construction: [
         "Images/Residential_Images/5bedroom_duplex/Construction_Phase/5BEDCON1.jpg",
         "Images/Residential_Images/5bedroom_duplex/Construction_Phase/5BEDCON2.mp4",
-        "Images/Residential_Images/5bedroom_duplex/Construction_Phase/5BEDCON3.mp4",
+
         "Images/Residential_Images/5bedroom_duplex/Construction_Phase/5BEDCON4.jpg",
         "Images/Residential_Images/5bedroom_duplex/Construction_Phase/5BEDCON5.mp4",
         "Images/Residential_Images/5bedroom_duplex/Construction_Phase/5BEDCON6.jpeg",
@@ -81,15 +82,14 @@ const PROJECTS = [
     intro:
       "Inspired by the client’s deep appreciation for traditional architecture and cultural heritage, this design blends timeless traditional craftsmanship with modern materials and contemporary expression. Traditional motifs are thoughtfully integrated into key elements, particularly the entrance pillars, creating a building that celebrates cultural identity while embracing modern design.",
     images: {
-      hero: "Images/Residential_Images/4bedroom_bungalow/3D/BUG3D1.jpg",
+      hero: "Images/Residential_Images/5bedroom_duplex_and_BQ/Completion_Phase/BQCOM1.jpg",
       sketches: [
         "Images/Residential_Images/5bedroom_duplex_and_BQ/Sketches/BQSKE1.jpg",
         "Images/Residential_Images/5bedroom_duplex_and_BQ/Sketches/BQSKE2.jpg",
-        "Images/Residential_Images/5bedroom_duplex_and_BQ/Sketches/BQSKE3.jpg",
       ],
       views3d: [],
       plans: [
-         "Images/Residential_Images/5bedroom_duplex_and_BQ/Floor_Plan/BQFLOOR_PLAN.JPG"
+        "Images/Residential_Images/5bedroom_duplex_and_BQ/Floor_Plan/BQFLOOR_PLAN.jpg",
       ],
       construction: [
         "Images/Residential_Images/5bedroom_duplex_and_BQ/Construction_Phase/BQCON1.jpg",
@@ -114,7 +114,8 @@ const PROJECTS = [
     type: "residential",
     location: "Awka , Anambra , Nigeria",
     year: "2025",
-    intro: LOREM,
+    intro:
+      "The project Set on a 302 sqm site, this four-bedroom residence was designed to balance simplicity with elegance. The client’s vision was to create an exquisite home where thoughtful design and aesthetic appeal come together beautifully.",
     images: {
       hero: "Images/Residential_Images/4bedroom_bungalow/3D/BUG3D1.jpg",
       sketches: [
@@ -127,7 +128,9 @@ const PROJECTS = [
         "Images/Residential_Images/4bedroom_bungalow/3D/BUG3D3.jpg",
         "Images/Residential_Images/4bedroom_bungalow/3D/BUG3D4.jpg",
       ],
-      plans: [],
+      plans: [
+        "Images/Residential_Images/4bedroom_bungalow/Floor_Plan/BUGFLOOR1.png",
+      ],
       construction: [],
       completion: [],
     },
@@ -139,7 +142,8 @@ const PROJECTS = [
     type: "residential",
     location: "Ontisha , Anambra, Nigeria",
     year: "2023",
-    intro: LOREM,
+    intro:
+      "The project is Designed on a 290sqm site, this four-bedroom duplex blends simplicity with elegance to create a visually appealing home. The design embraces open, seamless spaces—especially within the public living area—creating a sense of freedom, connection, and effortless flow.",
     images: {
       hero: "Images/Residential_Images/4bedroom_duplex/3D/DUP3D1.jpg",
       sketches: [
@@ -166,7 +170,8 @@ const PROJECTS = [
     type: "residential",
     location: "Enugu, Nigeria",
     year: "2023",
-    intro: LOREM,
+    intro:
+      "The design Set on a 1,450sqm plot, this retirement home is designed as a peaceful sanctuary where comfort meets nature, featuring a private farm and relaxation garden at the rear, with parking and a gatehouse at the front. A spacious entrance porch creates a welcoming retreat for the owner to unwind, entertain visitors, and enjoy beautiful views of the surrounding compound.",
     images: {
       hero: "Images/Residential_Images/6_bedroom_duplex/3D/6DUP3D1.jpg",
       sketches: [
@@ -223,7 +228,8 @@ const PROJECTS = [
     type: "commercial",
     location: "Awka, Anambra, Nigeria",
     year: "2025",
-    intro: LOREM,
+    intro:
+      "The plaza features spacious, well-zoned shops with generous ceiling heights, designed to provide comfort and ample room for merchandise display. A private U-shaped courtyard enhances natural lighting, creating a bright, welcoming, and functional shopping environment",
     images: {
       hero: "Images/Commercial_Images/United_plaza/Construction_Phase/PLACON10.mp4",
       sketches: [
@@ -254,7 +260,7 @@ const PROJECTS = [
     location: "Anambra, Nigeria",
     year: "2023",
     intro:
-      "A contemporary restaurant concept designed to create a welcoming dining experience, with a clear flow between the entrance, dining areas and service spaces.",
+      "Situated within a culturally rich ritual area near the local market square, the project seeks to create a vibrant relaxation destination by blending modern architecture with indigenous materials such as bamboo, thatch, and concrete. Inspired by the client’s vision, the design thoughtfully zones a bar and restaurant, outdoor snooker area, bush bar lounge, and staff quarters to create a welcoming atmosphere that encourages community interaction and brings nightlife to the locality",
     images: {
       hero: "Images/Commercial_Images/Restaurant_design/3D/3DVIEW1.jpeg",
       sketches: [
@@ -288,7 +294,7 @@ const PROJECTS = [
     location: "Owerri, Nigeria",
     year: "2023",
     intro:
-      "A nightclub concept that combines dramatic lighting, immersive interiors and carefully planned circulation to create an energetic social venue.",
+      "The projects is Designed across 1,350 sqm, this recreational hub brings together an outdoor bar, clubhouse, and rooftop restaurant, offering a refreshing escape for relaxation, dining, and social experiences with panoramic views of the compound and swimming pool. Complemented by dedicated parking spaces and swimming changing rooms, the design creates a seamless blend of comfort, leisure, and lifestyle.",
     images: {
       hero: "Images/Commercial_Images/Night_Club/3D/NGT3D1.jpg",
       sketches: [
@@ -306,7 +312,7 @@ const PROJECTS = [
         "Images/Commercial_Images/Night_Club/3D/NGT3D6.jpg",
         "Images/Commercial_Images/Night_Club/3D/NGT3D7.jpg",
       ],
-      plans: [u("photo-1486406146926-c627a92ad1ab", 1000)],
+      plans: [],
       construction: [],
       completion: [],
     },
@@ -319,7 +325,7 @@ const PROJECTS = [
     location: "Enugu, Nigeria",
     year: "2024",
     intro:
-      "A technology learning facility planned around practical computer training, collaborative learning and a comfortable environment for students and instructors.",
+      "The design is situated on a 306sqm site within a busy urban environment, the design transforms spatial constraints into an opportunity for an elegant, eye-catching ICT Training Centre. Through thoughtful space planning and efficient site utilisation, the project achieves a striking architectural identity while seamlessly accommodating essential facilities, including parking and other support services.",
     images: {
       hero: "Images/Commercial_Images/Ict_training_center/3D/ICT3D1.jpg",
       sketches: [
@@ -380,7 +386,7 @@ const PROJECTS = [
     type: "cultural",
     location: "Anambra, Nigeria",
     year: "2026",
-    intro: LOREM,
+    intro: "Set on a 450 sqm site, this town hall is designed as a vibrant space that brings the community together. The project celebrates cultural heritage while creating a welcoming environment for connection, unity, and shared experiences.",
     images: {
       hero: "Images/Cultural_&_religious_Images/Town_hall/3D/TWN3D1.jpg",
       sketches: [
@@ -476,7 +482,7 @@ const PROJECTS = [
     location: "Proposed, Nigeria",
     year: "2024",
     intro:
-      "A lecture theatre concept planned to support clear sightlines, comfortable seating, accessible circulation and effective teaching.",
+      "The project is Situated on a sloping site, the building embraces its natural terrain through an integrated basement design that creates two distinct entrances. While the main entrance opens into the reception and lecture hall, the basement entrance provides access to the student restaurant and bookstore, with a connecting staircase seamlessly linking both levels to achieve the functional vision of the design",
     images: {
       hero: "Images/Academic/Lecture_theatre/3D/LEC3D1.jpg",
       sketches: [
@@ -1264,7 +1270,7 @@ const PARTS = [
 const gal = (t, r, n, cap) =>
   `<div class="gal">${Array.from({ length: n }, (_, j) => `<figure>${media("", `${t} ${j + 1}`, r, "", t === "Sketch" ? "sketch" : "construction", "home-" + (j + 1))}<figcaption>${cap || t} ${j + 1}</figcaption></figure>`).join("")}</div>`;
 function home() {
-  app.innerHTML = `<section class="hero home"><div class="bg" id="slides"></div><div class="wrap"></p><h1>I'm a professional architect with 3+ years of experience.</h1><p>I design homes, cultural spaces and places for communities, from the first sketch to the finished building.</p><div class="cta"><a href="#profile">Read my profile</a><a href="#projects">See my projects</a><a href="#profile-cv">My CV</a></div></div><a class="cap" id="cap" href="#"></a></section>
+  app.innerHTML = `<section class="hero home"><div class="bg" id="slides"></div><div class="wrap"></p><h1>I'm a Graduate Architect with 3+ years of experience.</h1><p>I design homes, cultural spaces and places for communities, from the first sketch to the finished building.</p><div class="cta"><a href="#profile">Read my profile</a><a href="#projects">See my projects</a><a href="#profile-cv">My CV</a></div></div><a class="cap" id="cap" href="#"></a></section>
 <section class="sec" id="projects"><div class="wrap"><div class="sh"><h2>Selected work</h2><p class="blurb" id="blurb"></p></div>
 <div class="bar"><div class="filters" id="filters" role="group" aria-label="Filter by sector"></div><span class="count" id="count" aria-live="polite"></span></div>
 <div class="grid" id="grid"></div></div></section>`;
@@ -1284,7 +1290,7 @@ function profile() {
       </div>
       <div class="prof-copy">
         <p class="eyebrow">Profile</p>
-        <h1>I'm a professional architect with 3+ years of experience.</h1>
+        <h1>I'm a Graduate Architect with 3+ years of experience.</h1>
         <p>Graduate architect with hands-on experience in architectural design development, site supervision, and project documentation. Skilled at translating design concepts into practical construction solutions, coordinating site activities, interpreting technical drawings, and monitoring quality and compliance.</p>
         <p>Proficient in ArchiCAD, AutoCAD, and Enscape, with practical knowledge of architectural detailing, building methods, materials, and site coordination.</p>
         <dl class="pfacts" id="facts">
